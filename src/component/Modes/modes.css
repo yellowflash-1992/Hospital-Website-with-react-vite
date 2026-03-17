@@ -1,0 +1,47 @@
+/* App.css */
+
+.dark-mode-toggle {
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: inherit;
+}
+
+.dark-mode-toggle:focus {
+    outline: none;
+}
+
+
+/* App.css */
+
+body.dark-theme {
+    background-color: #162c3b;
+    color: #fff;
+}
+
+.dark .logo2 {
+    color: blue;
+}
+
+
+/* darkModeToggle.css */
+
+.dark-mode-toggle {
+    /* Add your custom button styles here */
+    padding: 10px -20px;
+    cursor: pointer;
+    background-color: red;
+    height: 0px;
+    width: 0px;
+    margin-right: 50px;
+}
+
+.dark-mode-toggle:hover {
+    color: aqua;
+}
+
+
+/* Add more styles for dark and light modes as needed */
+
+
+/* Add any other dark mode styles here */

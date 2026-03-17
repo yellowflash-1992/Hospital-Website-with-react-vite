@@ -1,0 +1,13 @@
+.footer--pin {
+    position: static;
+    width: 100%;
+    bottom: 0;
+    padding-top: 50px;
+}
+
+@media (max-width: 48em) {
+    .footer--pin {
+        position: static;
+        margin-top: 100px;
+    }
+}
