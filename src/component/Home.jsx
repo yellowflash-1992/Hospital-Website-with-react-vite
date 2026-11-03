@@ -342,7 +342,7 @@ useEffect(() => {
 
         <div className="bg-zinc-400 border-2 border-green-800 rounded-lg shadow-md p-4 w-full flex 
         flex-col md:flex-row ">
-          <img src={pic1} alt="" className='h-40 w-40 mr-32 rounded-t-xl border-2 border-green-800' />
+          <img src={pic1} alt="Team member" className='h-40 w-40 mr-4 md:mr-8 rounded-t-xl border-2 border-green-800' />
           <div className='m'>
           <h2 className='text-2xl font-bold mb-5'>Dr. Aniefiok McCarthy</h2>
         <p>Medical Director and CEO.</p>
@@ -351,43 +351,43 @@ useEffect(() => {
 
          <div className="bg-zinc-400 border-2 border-green-800 rounded-lg shadow-md p-4 w-full flex 
          flex-col md:flex-row ">
-          <img src={pic2} alt="" className='h-40 w-40 mr-32 rounded-t-xl border-2 border-green-800' />
+          <img src={pic2} alt="Team member" className='h-40 w-40 mr-4 md:mr-8 rounded-t-xl border-2 border-green-800' />
           <div>
-          <h2 className='text-x1 font-bold mb-2'>Dr. (Mrs) Waribo Helen A.</h2>
+          <h2 className='text-xl font-bold mb-2'>Dr. (Mrs) Waribo Helen A.</h2>
         <p>Medical Laboratory Scientist.</p>
         </div>
         </div>
 
          <div className="bg-zinc-300 border-2 border-green-800 rounded-lg shadow-md p-4 w-full 
          flex flex-col md:flex-row">
-          <img src={pic3} alt="" className='h-40 w-40 mr-32 rounded-t-xl border-2 border-green-800' />
+          <img src={pic3} alt="Team member" className='h-40 w-40 mr-4 md:mr-8 rounded-t-xl border-2 border-green-800' />
           <div>
-          <h2 className='text-x1 font-bold mb-2'>McCarthy Mfon Esq. CiArb</h2>
+          <h2 className='text-xl font-bold mb-2'>McCarthy Mfon Esq. CiArb</h2>
         <p>Legal Officer/HRM.</p>
         </div>
         </div>
 
          <div className="bg-zinc-300 border-2 border-green-800  rounded-lg shadow-md p-4 w-full
           flex flex-col md:flex-row">
-          <img src={pic4} alt="" className='h-40 w-40 mr-32 rounded-t-xl border-2 border-green-800' />
+          <img src={pic4} alt="Team member" className='h-40 w-40 mr-4 md:mr-8 rounded-t-xl border-2 border-green-800' />
           <div>
-          <h2 className='text-x1 font-bold mb-2'>Dr. (Mrs) Ngerebara Unyime M</h2>
+          <h2 className='text-xl font-bold mb-2'>Dr. (Mrs) Ngerebara Unyime M</h2>
         <p>Anesthesiologist.</p>
         </div>
         </div>
 
          <div className="bg-zinc-400 border-2 border-green-800 rounded-lg shadow-md p-4 w-full flex flex-col md:flex-row">
-          <img src={pic5} alt="" className='h-40 w-40 mr-32 rounded-t-xl border-2 border-green-800' />
+          <img src={pic5} alt="Team member" className='h-40 w-40 mr-4 md:mr-8 rounded-t-xl border-2 border-green-800' />
           <div>
-            <h2 className='text-x1 font-bold mb-2'>Dr. (Mrs) Iwara Komommo</h2>
+            <h2 className='text-xl font-bold mb-2'>Dr. (Mrs) Iwara Komommo</h2>
         <p>Obstetrics and Gynecology.</p>
         </div>
         </div>
 
          <div className="bg-zinc-400 border-2 border-green-800 rounded-lg shadow-md p-4 w-full flex flex-col md:flex-row">
-          <img src={pic6} alt="" className='h-40 w-40 mr-32 rounded-t-xl border-2 border-green-800' />
+          <img src={pic6} alt="Team member" className='h-40 w-40 mr-4 md:mr-8 rounded-t-xl border-2 border-green-800' />
           <div>
-          <h2 className='text-x1 font-bold mb-2'>Mrs Juliet Uchenna</h2>
+          <h2 className='text-xl font-bold mb-2'>Mrs Juliet Uchenna</h2>
         <p>Nurse.</p>
         </div>
         </div>
@@ -403,19 +403,19 @@ useEffect(() => {
         <div className='flex flex-col md:flex-row w-full gap-4 px-4 py-4 text-center text-4xl text-white'>
 
         <div className="bg-red-700 rounded-lg shadow-md p-4 w-full">
-          <h2 className='text-x1 font-bold mb-2'>Doctors</h2>
+          <h2 className='text-xl font-bold mb-2'>Doctors</h2>
         <p>20</p>
         </div>
          <div className="bg-blue-600 rounded-lg shadow-md p-4 w-full">
-          <h2 className='text-x1 font-bold mb-2'>Awards</h2>
+          <h2 className='text-xl font-bold mb-2'>Awards</h2>
         <p>30.</p>
         </div>
          <div className="bg-orange-400 rounded-lg shadow-md p-4 w-full">
-          <h2 className='text-x1 font-bold mb-2'>Laboratory</h2>
+          <h2 className='text-xl font-bold mb-2'>Laboratory</h2>
         <p>5</p>
         </div>
          <div className="bg-cyan-800 rounded-lg shadow-md p-4 w-full">
-          <h2 className='text-x1 font-bold mb-2'>Departments</h2>
+          <h2 className='text-xl font-bold mb-2'>Departments</h2>
         <p>10</p>
         </div>
         </div>
@@ -615,7 +615,7 @@ useEffect(() => {
             <div key={selectedStory.id} className="bg-white p-6 shadow rounded transform transition-all 
             duration-500 ease-out animate-grow">
 
-            <img src={selectedStory.image} alt='' className="w-full mb-4 rounded shadow
+            <img src={selectedStory.image} alt={selectedStory.title} className="w-full mb-4 rounded shadow
             md:w-[200px] md:float-right md:ml-4"/>
 
             <h2 className="text-xl font-bold mb-4">{selectedStory.title}</h2>

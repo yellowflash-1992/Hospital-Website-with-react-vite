@@ -7,7 +7,7 @@ const About = () => {
     return (
       <div className='flex flex-col  md:flex-row w-full gap-4 px-5 py-5 '>
         
-        <div className='flex-1'><img src={pic1} alt="" className='w-full max-w-md h-auto' /></div>
+        <div className='flex-1'><img src={pic1} alt="Opabode Hospital building" className='w-full max-w-md h-auto' /></div>
         
         <div className='flex-1'>
         <h1 className='font-bold text-left'>About</h1>
