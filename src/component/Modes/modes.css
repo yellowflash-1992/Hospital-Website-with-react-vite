@@ -1,41 +1,78 @@
 /* App.css */
 
 .dark-mode-toggle {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    margin-right: 12px;
-    padding: 0;
-    border: none;
-    border-radius: 50%;
-    background-color: transparent;
-    color: inherit;
-    font-size: 24px;
-    cursor: pointer;
-    transition: background-color 0.2s ease, color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  color: inherit;
+  font-size: 24px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .dark-mode-toggle:hover {
-    background-color: rgba(0, 0, 0, 0.08);
-    color: #2563eb;
+  background-color: rgba(0, 0, 0, 0.08);
+  color: #2563eb;
 }
 
 .dark-mode-toggle:focus {
-    outline: 2px solid #2563eb;
-    outline-offset: 2px;
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
 }
 
 body.dark-theme {
-    background-color: #162c3b;
-    color: #fff;
+  background-color: #162c3b;
+  color: #fff;
 }
 
 body.dark-theme .dark-mode-toggle:hover {
-    background-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.12);
 }
 
 .dark .logo2 {
-    color: blue;
+  color: blue;
+}
+/* ============================================================
+   DARK MODE — text contrast fixes
+   body.dark-theme sets color:#fff, but light-bg cards don't
+   change → text becomes invisible. Force dark text on light bg.
+   ============================================================ */
+
+body.dark-theme .bg-white,
+body.dark-theme .bg-gray-50,
+body.dark-theme .bg-gray-100,
+body.dark-theme .bg-gray-200,
+body.dark-theme .bg-gray-300,
+body.dark-theme .bg-green-200,
+body.dark-theme .bg-yellow-300,
+body.dark-theme .bg-zinc-300 {
+  color: #1f2937;
+}
+
+/* Form inputs: ensure dark text on (default) white input bg */
+body.dark-theme input,
+body.dark-theme textarea,
+body.dark-theme select {
+  color: #1f2937;
+  background-color: #ffffff;
+}
+
+body.dark-theme input::placeholder,
+body.dark-theme textarea::placeholder {
+  color: #6b7280;
+}
+
+/* Nav links: green-700 on dark body is low contrast — brighten */
+body.dark-theme .nav-links a,
+body.dark-theme .nav-links-mob a {
+  color: #4ade80; /* green-400 — readable on dark */
 }
