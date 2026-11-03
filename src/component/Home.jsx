@@ -659,7 +659,7 @@ useEffect(() => {
               transform: `translateX(-${index * (100 / visibleCards)}%)`,
             }}>
             {cards.map((card, i) =>(
-              <div key={i} className='flex-shrink-0 w-full h-[450px] md:w-1/3 px-2'>
+              <div key={i} className='flex-shrink-0 w-full md:w-1/3 h-auto min-h-[280px] md:min-h-[450px] px-2'>
              
               <div className=' bg-gray-50 border border-gray-100 rounded-xl p-5 shadow-sm 
                hover:shadow-xl transition-all
