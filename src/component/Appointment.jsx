@@ -6,8 +6,8 @@ const Appointment = () => {
             <div>
                  <h1 className='text-center text-bold text-2xl'>Booking Form</h1>
 
-                 <div className='bg-white rounded-lg w-[420px] mx-auto m-10 justify-center h-auto
-                  shadow-md md:h-64 my-3  md:w-[90%] md:mx-auto'>
+                 <div className='bg-white rounded-lg w-full max-w-md mx-auto m-4 md:m-10 justify-center h-auto
+                  shadow-md my-3'>
                     <form className='p-3'> 
 
                         <div className='flex flex-col gap-4 md:flex-row md:gap-1 w-full'>
@@ -29,18 +29,18 @@ const Appointment = () => {
                         </div>
 
                         <div className='flex flex-col gap-4 md:flex-row md:gap-1 w-full mt-8'>
-                            <input type="date" name="s" id="" className='border-solid border-black
-                            border rounded-lg h-16 w-full' />
+<input type="date" name="s" id="appointment-date" className='border-solid border-black
+                             border rounded-lg h-12 sm:h-14 w-full' />
 
-                            <input type="time" name="time" id="t" className='h-16 w-full border 
-                            border-black rounded-lg' />
+<input type="time" name="time" id="t" className='h-12 sm:h-14 w-full border 
+                             border-black rounded-lg' />
 
-                            <textarea name="message" id="mess" className='h-16 w-full 
-                            border border-black rounded-lg' placeholder='Message'></textarea>
+<textarea name="message" id="mess" className='min-h-[100px] sm:min-h-[140px] w-full 
+                             border border-black rounded-lg' placeholder='Message'></textarea>
                         </div>
 
-                        <button type="submit" className='bg-green-400 my-10 text-white font-bold
-                        rounded-lg h-10 w-1/3'>Submit</button>
+<button type="submit" className='bg-green-400 my-10 text-white font-bold
+                         rounded-lg h-10 w-full sm:w-auto sm:px-8'>Submit</button>
 
                     </form>
                  </div>
