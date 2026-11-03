@@ -693,49 +693,10 @@ useEffect(() => {
           </div>
         </div>
       </section>
-{/* 
-      <section className='contact flex flex-col md:flex-row w-full gap-36 px-4 py-4'>
-        <div className='space-y-2'>
-          <h1 className='text-xl font-bold font-serif py-3'>Opabode Hospital</h1>
-          <p>No 3 alhaji haruna street, college road, Oroki, Oyo state</p>
-          <p>Phone:+234 803 991 0679</p>
-          <p>Email1: info@opabodehospital.com</p>
-          <p>Email2: contact@opabodehospital.com</p>
-        </div>
-
-        <div className='flex flex-col items-start -ml-20 md:ml-0 space-y-2 px-20 sm:flex-col'>
-          <h2 className='text-xl font-bold font-serif py-3'>Useful Links</h2>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Contact Us</a>
-          <a href="#">Department</a>
-        </div>
-
-        <div className='space-y-2'>
-          <h2 className='text-xl font-bold font-serif py-3'>Our Services</h2>
-          <p>Ambulance</p>
-          <p>Laboratory</p>
-          <p>X-ray</p>
-          <p>Scan</p>
-          <p>Neonatal Care</p>
-        </div>
-      </section>
 
 
-      <section className='footer bg-blue-950'>
-        <div className='text-bold text-center text-white'>
-          <p>© Copyright opabodehospital 2026. All Rights Reserved</p>
-          <p>Designed by yellowflash</p>
-        </div>
-      </section>
-
- */}
-
-
-
-      </div>
+</div>
     );
-};
-
-export default Home
+  };
+  
+  export default Home
