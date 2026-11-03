@@ -17,8 +17,8 @@ a {
 }
 
 .navbar-custom {
-    height: 12vh;
-    line-height: 15vh;
+    min-height: 80px;
+    height: auto;
     box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
     display: flex;
     justify-content: space-between;
