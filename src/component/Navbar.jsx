@@ -46,9 +46,9 @@ const Navbar = () => {
 
       {Mobile && (
                     <li>
-                        <div className='mob-menu-icon' onClick={() => setMobile(!Mobile)}>
-                            <ImCross />
-                        </div>
+<button className='mob-menu-icon' onClick={() => setMobile(!Mobile)} aria-label="Close menu">
+                        <ImCross />
+                    </button>
                     </li>
                 )}
 
@@ -73,7 +73,7 @@ const Navbar = () => {
 
 
         {!Mobile && (
-                <button className='mob-menu-icon' onClick={() => setMobile(!Mobile)}>
+                <button className='mob-menu-icon' onClick={() => setMobile(!Mobile)} aria-label="Open menu">
                     <FaBarsStaggered />
                 </button>
             )}

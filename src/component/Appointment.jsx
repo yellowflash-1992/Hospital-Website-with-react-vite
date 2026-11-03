@@ -37,17 +37,17 @@ const Appointment = () => {
                         <div className='flex flex-col gap-4 md:flex-row md:gap-1 w-full'>
 
                         <label htmlFor="name"></label>
-                        <input type="text" name="name" id="name1" value={formData.name} onChange={handleChange} 
+                        <input type="text" name="name" id="name1" value={formData.name} onChange={handleChange} aria-label="Name" 
                         className='rounded-lg border-solid border-black  border 
                         w-full h-10 p-3 font-serif font-bold' placeholder='Your Name' />
 
                          <label htmlFor="email"></label>
-                        <input type="email" name="email" id="email1" value={formData.email} onChange={handleChange} 
+                        <input type="email" name="email" id="email1" value={formData.email} onChange={handleChange} aria-label="Email" 
                         className='rounded-lg border-solid border-black  border 
                         w-full h-10 p-3 font-serif font-bold' placeholder='Your Email' />
 
                          <label htmlFor="phone"></label>
-                        <input type="tel" name="phone" id="phone1" value={formData.phone} onChange={handleChange} 
+                        <input type="tel" name="phone" id="phone1" value={formData.phone} onChange={handleChange} aria-label="Phone" 
                         className='rounded-lg border-solid border-black  border 
                         w-full h-10 p-3 font-serif font-bold' placeholder='Your phone' />
                         </div>

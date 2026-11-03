@@ -26,7 +26,7 @@ function DarkModeToggle() {
   };
 
   return (
-    <button onClick={toggleDarkMode} className="dark-mode-toggle">
+    <button onClick={toggleDarkMode} className="dark-mode-toggle" aria-label={isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}>
       {isDarkMode ? <FaSun /> : <FaMoon />}
     </button>
   );
