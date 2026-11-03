@@ -1,47 +1,41 @@
 /* App.css */
 
 .dark-mode-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    padding: 0;
     border: none;
-    cursor: pointer;
-    font-size: 24px;
+    border-radius: 50%;
+    background-color: transparent;
     color: inherit;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dark-mode-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    color: #2563eb;
 }
 
 .dark-mode-toggle:focus {
-    outline: none;
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
 }
-
-
-/* App.css */
 
 body.dark-theme {
     background-color: #162c3b;
     color: #fff;
 }
 
+body.dark-theme .dark-mode-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
 .dark .logo2 {
     color: blue;
 }
-
-
-/* darkModeToggle.css */
-
-.dark-mode-toggle {
-    /* Add your custom button styles here */
-    padding: 10px -20px;
-    cursor: pointer;
-    background-color: red;
-    height: 0px;
-    width: 0px;
-    margin-right: 50px;
-}
-
-.dark-mode-toggle:hover {
-    color: aqua;
-}
-
-
-/* Add more styles for dark and light modes as needed */
-
-
-/* Add any other dark mode styles here */
