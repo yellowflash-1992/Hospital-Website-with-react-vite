@@ -226,7 +226,7 @@ useEffect(() => {
       <div className="grid grid-cols-1 gap-8">
 
         <header>
-      <video src={hospital} autoPlay muted loop style={{height:'100vh',width:'100%', objectFit:'cover'}} />
+      <video src={hospital} autoPlay muted loop className="hero-video" />
       </header>
       <br />
       <hr />
