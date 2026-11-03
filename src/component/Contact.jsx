@@ -46,8 +46,8 @@ const Contact = () => {
       <textarea name="mess" id="mess1" placeholder='message' className='border-2 border-solid
       border-gray-300 rounded-lg min-h-[100px] sm:min-h-[140px] w-full p-3 mt-5 '></textarea>
     <div className='flex justify-center'>
-    <button type="submit" className='bg-green-400 my-10 text-white font-bold
-       rounded-lg h-10 w-full sm:w-auto sm:px-8'>Submit</button>
+<button type="submit" className='bg-green-600 hover:bg-green-700 transition-colors my-10 text-white font-bold
+        rounded-lg h-10 w-full sm:w-auto sm:px-8'>Submit</button>
      </div>
     </form>
   </div>

@@ -39,7 +39,7 @@ const Appointment = () => {
                              border border-black rounded-lg' placeholder='Message'></textarea>
                         </div>
 
-<button type="submit" className='bg-green-400 my-10 text-white font-bold
+<button type="submit" className='bg-green-600 hover:bg-green-700 transition-colors my-10 text-white font-bold
                          rounded-lg h-10 w-full sm:w-auto sm:px-8'>Submit</button>
 
                     </form>
