@@ -682,7 +682,7 @@ useEffect(() => {
 
       <section className='map bg-gray-100 py-12'>
         <div className="max-w-6xl mx-auto px-4">
-          <div className='rounded-2xl overflow-hidden shadow-lg h-[400px]'>
+          <div className='rounded-2xl overflow-hidden shadow-lg h-[300px] md:h-[400px]'>
             <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.276484639724!2d3.9115976740383287!3d7.86610880610889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10375a0f9f582d05%3A0xcdc63746327e0205!2sOpabode%20Memorial%20Hospital!5e0!3m2!1sen!2sng!4v1771259159028!5m2!1sen!2sng"
         className="w-full h-full border-0"
